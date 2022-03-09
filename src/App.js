@@ -25,7 +25,9 @@ function App() {
       </Route>
 
       <Route path='/dashbords'>
-      <CustomerDashbord /> 
+      {
+         auth.token === "" ?  <SignIn />:  <CustomerDashbord />
+      }
       </Route>
 
       <Route path='/login'>

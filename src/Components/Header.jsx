@@ -9,7 +9,7 @@ const Header = ()=>{
     <div className="header">
         
         <div className="left-header">
-            INVEST WITH TRIBE
+           Youtube
         </div>
         {
             auth.token!==""?<div className="user">
